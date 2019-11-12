@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up</title>
+
+<style>
+#select{
+width: 100px;
+}
+</style>
+<body>
+<h1 style="font-size:50px;color: green; padding-left: 550px" >Welcome! </h1>
+<h1 style="font-size:30px;color: green; padding-left: 560px" >New to website?</h1>
+<h1 style="font-size:40px; background-color: green; color: white; padding-left: 590px" > Sign Up </h1>
+<form action="submit" method="POST" style="background-color:AliceBlue; color: green; font-size:20px">
+
+First Name: <input type = "text" name="fname"  placeholder="First name"/><br /><br />
+
+Last Name: <input type = "text" name="lname" placeholder=" Last Name" /><br /><br />
+
+User Name: <input type="text" name="uname" placeholder ="User name"><br /><br />
+
+Sign Up as:
+<select id="select" name="type">
+  <option value="Buyer">Buyer</option>
+  <option value="Seller">Seller</option>
+</select><br ><br >
+
+Password: <input type="password" name="password" placeholder="Password"><br /><br />
+
+Confirm Password: <input type="password" name="password1" placeholder="Confimed Password"><br /><br />
+
+<button style="color: white; background-color: green; width:80px; height:40px">Sign In</button><br /><br />
+</form>
+<br /><br />
+
+<h1 style="font-size:30px;color: green; padding-left: 490px" >Already have an Account?</h1>
+<h1 style="font-size:40px; background-color: green; color: white; padding-left: 600px" >Log In </h1>
+<form action="login" method="POST" style="background-color:AliceBlue; color: green; font-size:20px">
+User Name: <input type="text" name="uname1" placeholder ="User name"><br /><br />
+
+Password: <input type="password" name="password2" placeholder="Password"><br /><br />
+
+<button style="color: white; background-color: green; width:80px; height:40px">Log In</button><br /><br />
+</form>
+<br /><br />
+</body>
+<html>
