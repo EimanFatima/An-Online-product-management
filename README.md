@@ -1,2 +1,2 @@
-# Express-Project-
-An online product manager
+# README
+An online product manager using express js for frontend and backend
